@@ -1,4 +1,7 @@
 # Maze-Escape
+## Purpose 
+* This project was created to practice my python knowledge and gain new skills.
+* Learned some new stuff such as the breadth first search algorithm, windows curses.
 ## About the project
 * Maze Escape is a program to solve a maze, It uses the Breadth First Search algorithm to find the shortest way possible.
 * Windows Curses library is used to visualize the process.
