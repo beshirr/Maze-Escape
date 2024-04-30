@@ -36,7 +36,7 @@ def get_start(maze, start):
 
 
 def get_neighbors(maze, row, column):
-    # @Breif: Find the neighbors of the current position
+    # @Brief: Find the neighbors of the current position
     # @Param: the maze map, and coordinates of the current position
     # @returns: the neighbors of the current position
     neighbors = []
@@ -58,8 +58,8 @@ def get_neighbors(maze, row, column):
 
 
 def find_path(maze, stdscr):
-    # @Breaf: Breadth First search algorithm implementation
-    # @Param: Maza map
+    # @Brief: Breadth First search algorithm implementation
+    # @Param: Maze map
     # @returns: The shortest path
     process = queue.Queue()
     visited = set()
@@ -72,8 +72,8 @@ def find_path(maze, stdscr):
     process.put((str_position, [str_position]))
     
     while not process.empty():
-        # If the proccessing Queue is empty that means that
-        # eihter the end point is found or there is no solution for the maze
+        # If the processing Queue is empty that means that
+        # either the end point is found or there is no solution for the maze
         current_position, path = process.get()
         row, column = current_position
 
